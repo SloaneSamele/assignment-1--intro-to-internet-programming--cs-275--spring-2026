@@ -6,8 +6,9 @@ body{
   font-style: normal;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: "Cinzel", serif;
+  font-size: xx-large;
+  font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: black;
   font-style: normal;
 }
