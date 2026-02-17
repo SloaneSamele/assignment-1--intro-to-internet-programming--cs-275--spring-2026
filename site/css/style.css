@@ -19,8 +19,6 @@ p{
 }
 
 b{
-  font-weight: 700;
-}
-strong{
-  font-weight: 750;
+  font-weight: 450;
+  font-size: 1.8rem;
 }
