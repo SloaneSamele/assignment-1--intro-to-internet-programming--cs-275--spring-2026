@@ -8,16 +8,20 @@ body{
   color: rgb(23,7,4);
 }
 h1, h2, h3, h4, h5, h6{
-  font-size: 4rem;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: black;
   font-style: normal;
 }
+h1{
+  font-size: 3rem;
+}
 p{
   margin: 16px;
 }
-
+h5{
+  font-size: 2rem;
+}
 b{
   font-weight: 450;
   font-size: 1.8rem;
