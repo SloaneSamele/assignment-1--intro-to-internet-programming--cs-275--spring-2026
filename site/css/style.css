@@ -17,11 +17,10 @@ h1, h2, h3, h4, h5, h6{
 p{
   margin: 16px;
 }
+
 b{
   font-weight: 700;
-  color: red;
 }
 strong{
-  font-weight: 700;
-  color: blue;
+  font-weight: 750;
 }
