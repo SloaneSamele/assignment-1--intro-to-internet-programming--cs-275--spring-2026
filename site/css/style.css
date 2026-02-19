@@ -1,5 +1,6 @@
 @import url('variables.css');
-body{
+
+body {
   background-color: rgb(255, 247, 247);
   font-family: "Lora", serif;
   font-optical-sizing: auto;
@@ -8,20 +9,16 @@ body{
   font-size: 1.5rem;
   color: rgb(43, 13, 8);
 }
+
 h1, h2, h3, h4, h5, h6{
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: black;
-  font-style: normal; 
+  font-style: normal;
   text-align: center;
 }
 h1{
   font-size: 3rem;
-}
-p{
-  margin-bottom: 50px;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 h5{
   font-size: 2rem;
@@ -78,4 +75,20 @@ nav > ul > li > ul {
   position: absolute;
   left: 0;
   visibility: hidden;
+}
+p{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#return {
+  display: bloack;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color--nav-links);
+  line-height: var(--height--nav-item);
+}
+#return: hover{
+  background-color: rgb(255, 247, 247);
 }
