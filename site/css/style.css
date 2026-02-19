@@ -1,12 +1,16 @@
 body{
-  background-color: rgb(245, 244, 255);
+  background-color: rgb(253, 253, 253);
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
-  color: rgb(23,7,4);
+  color: rgb(43, 13, 8);
 }
+/* main{
+  padding-left: 15.5%;
+  padding-right: 10%;
+} */
 h1, h2, h3, h4, h5, h6{
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
@@ -17,7 +21,9 @@ h1{
   font-size: 3rem;
 }
 p{
-  margin: 16px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 h5{
   font-size: 2rem;
@@ -25,4 +31,65 @@ h5{
 b{
   font-weight: 450;
   font-size: 1.8rem;
+}
+nav {
+  margin: 0 auto;
+}
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  background-color: #b32727;
+  list-style-type: none;
+}
+ul li {
+  margin-left: -40px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  width: 300px;
+  height: 48px;
+}
+nav a {
+  display: block;
+  width: 150px;
+  line-height: 48px;
+}
+nav a:hover {
+  background-color: #d5f2f9;
+}
+nav > ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav > ul > li {
+  position: relative;
+  flex-grow: 1;
+  margin: 0;
+  background-color: #f42a2a;
+  width: 150px;
+}
+nav > ul > li:hover > ul {
+  visibility: visible;
+}
+nav > ul > li > ul {
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+}
+nav > ul > li > ul a {
+  height: 48px;
+  line-height: 48px;
 }
