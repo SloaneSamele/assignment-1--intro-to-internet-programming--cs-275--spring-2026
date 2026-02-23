@@ -1,7 +1,7 @@
 @import url('variables.css');
 
 body {
-  background-color: rgb(255, 247, 247);
+  background-color: rgb(244, 241, 241);
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  background-color: var(--color--bg--link-hover);
+  color: red;
 }
 
 nav {
