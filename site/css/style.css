@@ -1,13 +1,13 @@
 @import url('variables.css');
 
 body {
-  background-color: rgb(244, 241, 241);
+  background-color: rgb(210, 219, 235);
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
-  color: rgb(43, 13, 8);
+  color: rgb(1, 22, 43);
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: rgb(0, 56, 90);
 }
 
 nav {
@@ -79,16 +79,4 @@ nav > ul > li > ul {
 p{
   margin-top: 30px;
   margin-bottom: 50px;
-}
-
-#return {
-  display: bloack;
-  width: 150px;
-  text-align: center;
-  text-decoration: none;
-  color: var(--color--nav-links);
-  line-height: var(--height--nav-item);
-}
-#return: hover{
-  background-color: rgb(255, 247, 247);
 }
